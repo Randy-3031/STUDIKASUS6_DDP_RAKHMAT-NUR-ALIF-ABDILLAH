@@ -26,19 +26,19 @@ NIM : 2609116100
 
 <img width="1366" height="728" alt="● STUDIKASUS_6 py - Intel - Visual Studio Code 10_6_2026 8_50_11 PM" src="https://github.com/user-attachments/assets/da47e46c-686c-41a8-bc01-c43f93cec8f6" />
 
-**Menu 1: Lihat Data Barang**
+**Pilihan 1: Lihat Data Barang**
 - Memanggil baca_data() untuk mengambil data dari file.
 Jika data kosong, program menampilkan pesan "Belum ada data barang".
 Jika ada data, for menampilkan nama, stok, dan harga setiap barang. Harga diformat dengan pemisah ribuan lewat f"Rp{...:,}"
 
-**Menu 2: Tambah Barang**
+**Pilihan 2: Tambah Barang**
 - Pengguna memasukkan nama, stok, dan harga barang. int() mengubah input stok dan harga menjadi angka.
 - try-except ValueError mencegah crash jika pengguna mengetik huruf. Program menampilkan pesan error lalu continue kembali ke menu.
 - Data lama dibaca dulu dengan baca_data(), supaya barang baru ditambahkan ke data yang sudah ada, bukan menimpanya.
 - barang_baru adalah dictionary yang berisi data satu barang.
 - data.append() menambahkan barang baru ke list, lalu simpan_data() menyimpannya ke file secara permanen.
 
-**Menu 3: Keluar**
+**Pilihan 3: Keluar**
 - break menghentikan perulangan while True sehingga program berakhir.
 
 **Pilihan Tidak Valid**
