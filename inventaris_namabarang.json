@@ -1,0 +1,17 @@
+[
+    {
+        "nama": "Mie Instan",
+        "stok": 30,
+        "harga": 3000
+    },
+    {
+        "nama": "Minyak Goreng 1L",
+        "stok": 20,
+        "harga": 25000
+    },
+    {
+        "nama": "Gula Pasir",
+        "stok": 15,
+        "harga": 18000
+    }
+]
